@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Password Generate</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="password">
+          <span id="passbox"></span>
+        </div>
+        <div class="cases">
+          <p>Password Length</p>
+          <input class="input" id="total-char" type="number" max="30" min="2" value="10">
+        </div>
+        <div class="cases">
+          <p>Contains Uppercase</p>
+          <input type="checkbox" id="Uppercase">
+        </div>
+        <div class="cases">
+          <p>Contains Lowercase</p>
+          <input type="checkbox" id="Lowercase">
+        </div>
+        <div class="cases">
+          <p>Contains Numbers</p>
+          <input type="checkbox" id="Numbers">
+        </div>
+        <div class="cases">
+          <p>Contains Symbols</p>
+          <input type="checkbox" id="Symbols">
+        </div>
+        <div class="generate">
+          <button id="mybutton" class="btn">
+            Generate
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="/index.js" async defer></script>
+  </body>
+</html>
